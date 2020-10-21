@@ -37,7 +37,7 @@
 
 #### 1.1. Course [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 
-[![screenshot-image-link](./markdown-styling/screenshot-image-link.png)](./task_git_intro/version-control-with-git.png)
+[![screenshot-image-link](./task_git_collaboration/Version_Control_with_Git_1.png)
 
 
 During this course i:
