@@ -5,7 +5,7 @@
 
  1. **GENERAL**
     - [x] [Git and Github](#1-git-and-github)
-    - 111 [Linux CLI and Networking](#2-linux-cli-and-networking)
+    - [x] [Linux CLI and Networking](#2-linux-cli-and-networking)
     - [ ] [VCS (hello gitty), GitHub and Collaboration](#3-vcs-hello-gitty-github-and-collaboration)
   
  2. **FRONT-END BASICS**
@@ -132,3 +132,36 @@ During this course I:
    I discovered for myself [GitHub Learning Lab](https://lab.github.com/) and i will used it to practise my skills.  For me visual representation of any thing is much better than any amount of text material.
 
 ***
+
+### 2. Linux CLI and Networking
+
+***
+
+#### 2.1 Course [Linux Survival (4 modules)](https://linuxsurvival.com/linux-tutorial-introduction/)
+
+
+- **What was new**
+Everything was new for me. Is my first Linux study. It wasn't easy but for that I have my notes here.
+  - `more <file>` to show file content.
+  - `mv <any> <dir>` to move file/directory in another directory.
+  - `mv <any> <new-name>` to rename file/directory.
+  - `cp <file> <dir>`/`cp -r <dir> <dir>` to copy file/directory in another directory.
+  - `pwd` to show current directory.
+  - `rm <file>`/`rmdir <dir>`/`rm -r <dir>` to remove file/empty directory/non-empty directory.
+  - `ls -l` for detailed file listing.
+  - `chmod` for managing security permissions on files.
+  - `~` as shortcut for current user home directory, `~<user-id>` as shortcut for another user home directory, `.` as a shortcut for current directory, `..` as a shortcut for parent directory.
+  - `man <command>`, `man man` for cli commands searching.
+  - `cd` with no arg for navigating to current user home directory.
+  - `ps`/`pr aux` to show process status/list all processes.
+  - `<com-1> | <com-2>` to send output from one command as input to another command (pipe commands).  For instance, `ps aux | grep <text>` means:
+    1. execute `ps aux` and instead of logging its result in terminal pass it as arg to the next command.
+    2. execute `grep <text>` with `<arg>` where arg is the one which received from previous command (if this command wouldn't be part og commands pipe, we should specify arg manually - `grep <text> <arg>`).
+  - `grep <text> <file>` to show lines of the containing defined text.
+  - `kill <process-id>`, `kill -9 <process-id>` to kill processes.
+
+- **What surprised**
+  I was surprised that absolute path starts from `/`. I always used relative paths starting with `./` and used to think that `./` === `/`. By making some experements in terminal i understood that *absolute path* starts from  `/` and *relative path* starts from `./` or right from file/directory name. I also realized that each command has both input and output where input - set or arguments defined with command and output - content printed in terminal. 
+- **What will be used in practice**
+  I will use most of the commands i acquainted with because it represents 20% of commands which can cover up to 80% of work to do in terminal.
+
