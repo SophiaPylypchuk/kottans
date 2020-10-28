@@ -165,3 +165,8 @@ Everything was new for me. Is my first Linux study. It wasn't easy but for that 
 - **What will be used in practice**
   I will use most of the commands i acquainted with because it represents 20% of commands which can cover up to 80% of work to do in terminal.
 
+![linux-screenshot](task_linux_cli/Screenshot_1.png)
+![linux-screenshot](task_linux_cli/Screenshot_2.png)
+![linux-screenshot](task_linux_cli/Screenshot_3.png)
+![linux-screenshot](task_linux_cli/Screenshot_4.png)
+![linux-screenshot](task_linux_cli/Screenshot_5.png)
