@@ -176,6 +176,9 @@ Everything was new for me. Is my first Linux study. It wasn't easy but for that 
 
 #### 3.1 Course [GitHub & Collaboration](https://classroom.udacity.com/courses/ud456)
 
+***
+
+
 - **What was new for me**
  - I learned that local representation of remote branch is called 'tracking branch'.
  > tracking branch is local branch which represents remote branch.
