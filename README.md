@@ -6,7 +6,7 @@
  1. **GENERAL**
     - [x] [Git and Github](#1-git-and-github)
     - [x] [Linux CLI and Networking](#2-linux-cli-and-networking)
-    - [ ] [VCS (hello gitty), GitHub and Collaboration](#3-vcs-hello-gitty-github-and-collaboration)
+    - [x] [VCS (hello gitty), GitHub and Collaboration](#3-vcs-hello-gitty-github-and-collaboration)
   
  2. **FRONT-END BASICS**
   
@@ -170,3 +170,46 @@ Everything was new for me. Is my first Linux study. It wasn't easy but for that 
 ![linux-screenshot](task_linux_cli/Screenshot_3.png)
 ![linux-screenshot](task_linux_cli/Screenshot_4.png)
 ![linux-screenshot](task_linux_cli/Screenshot_5.png)
+
+
+***
+
+#### 3.1 Course [GitHub & Collaboration](https://classroom.udacity.com/courses/ud456)
+
+- **What was new for me**
+ - I learned that local representation of remote branch is called 'tracking branch'.
+ > tracking branch is local branch which represents remote branch.
+ 
+ > origin/master in the local repository is called a *tracking branch* because it's tracking the progress of the master branch on the remote repository.
+
+ - I compared fork vs clone. Fork is copy of somebody's repo on your GitHub account (you owner of copy, you can link local repo to it and push changes in it). Clone is just way to link you local repo with any GitHub repository (if you linked to somebody's repo, you can only fetch changes and create pull requests for making changes). Simply saying, forking is copying on the GitHub level, cloning - on local machine level.
+ - I learned how to keep local, origin and upstream repos sync. Pull changes from upstream in local -> push changes from local in remote.
+
+
+I learned new information about forks.
+To get commits from a source repository into forked repository on GitHub I need to:
+
+* Get the cloneable URL of the source repository
+* Create a new remote with the git remote add command
+* Use the shortname upstream to point to the source repository
+* Provide the URL of the source repository
+* Fetch the new upstream remote
+* Merge the upstream's branch into a local branch
+* Push the newly updated local branch to your origin repo
+
+I was surprised how many different and useful commands that I can do with git rebase:
+
+- use `p` or `pick` – to keep the commit as is
+- use `r` or `reword` – to keep the commit's content but alter the commit message
+- use `e` or `edit` – to keep the commit's content but stop before committing so that you can:
+  * add new content or files
+  * remove content or files
+  * alter the content that was going to be committed
+- use `s` or `squash` – to combine this commit's changes into the previous commit (the commit above it in the list)
+- use `f` or `fixup` – to combine this commit's change into the previous one but drop the commit message
+- use `x` or `exec` – to run a shell command
+- use `d` or `drop` – to delete the commit.
+
+I'm sure that most of the commands I will use in future.
+
+![Git Collaboration Screenshot](task_git_collaboration/GitHub_collaboration.png)
