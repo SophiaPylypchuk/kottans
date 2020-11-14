@@ -6,7 +6,7 @@
  1. **GENERAL**
     - [x] [Git and Github](#1-git-and-github)
     - [x] [Linux CLI and Networking](#2-linux-cli-and-networking)
-    - [x] [VCS (hello gitty), GitHub and Collaboration](#3-vcs-hello-gitty-github-and-collaboration)
+    - [ ] [VCS (hello gitty), GitHub and Collaboration](#3-vcs-hello-gitty-github-and-collaboration)
   
  2. **FRONT-END BASICS**
   
@@ -216,3 +216,14 @@ I was surprised how many different and useful commands that I can do with git re
 I'm sure that most of the commands I will use in future.
 
 ![Git Collaboration Screenshot](task_git_collaboration/GitHub_collaboration.png)
+
+After that I had practice with [LearnGitBranching](https://learngitbranching.js.org)
+It was very helpful to understand Git commands:
+
+* How branches works
+* How to work with remote repos
+* How to work in team with Git
+* Git fetch command
+
+![LearnGitBranching-screenshot](task_git_collaboration/Git-branching.png)
+![LearnGitBranching-screenshot](task_git_collaboration/Git-branching-2.png)
