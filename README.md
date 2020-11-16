@@ -1,7 +1,7 @@
 # kottans-frontend
 
 ## Repository dedicated to participation in [Kottans frontend course](https://github.com/kottans/frontend)
-## My progress :rocket:
+
 
  1. **GENERAL**
     - [x] [Git and Github](#1-git-and-github)
