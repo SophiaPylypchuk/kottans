@@ -26,10 +26,7 @@
     - [ ] [Website Performance Optimization](#14-website-performance-optimization)
     - [ ] [Friends App - real project!](#15-friends-app-real-project)
   
-![box-shadow-bottom](./markdown-styling/box-shadow-bottom.png)
 
-
-## GENERAL
 
 ### 1. Git and GitHub
 
