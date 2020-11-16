@@ -34,9 +34,9 @@
 
 #### 1.1. Course [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
 
-[![screenshot-image-link](./task_git_collaboration/Version_Control_with_Git_1.png)
+![screenshot-image-link](./task_git_collaboration/Version_Control_with_Git_1.png)
 
-[![screenshot-image-link](./task_git_collaboration/Version_Control_with_Git_2.png)]
+![screenshot-image-link](./task_git_collaboration/Version_Control_with_Git_2.png)]
 
 Before starting this course i didn't know anything about Git. So everything was new for me. I can say I was learning Git from zero.
 
